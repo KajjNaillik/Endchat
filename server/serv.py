@@ -1,3 +1,5 @@
+from flask import Flask
+
 def get_entry():
     txt = input("Please type your message : ")
     return txt
